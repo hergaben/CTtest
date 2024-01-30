@@ -1,0 +1,136 @@
+.container {
+    width: 100%;
+    height: 100%;
+
+    max-width: 900px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+}
+
+.video {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+    background: black;
+}
+
+.video iframe {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.text {
+    width: 100%;
+    height: 100%;
+
+    max-width: 900px;
+    margin: 20px auto;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    border-radius: 15px;
+    background: #ffa500;
+}
+
+.description {
+    max-width: 900px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.description>h3 {
+    text-align: left;
+    color: white;
+    font-size: 22px;
+}
+
+.description>p {
+    text-align: left;
+    color: white;
+}
+
+.text-civ {
+    width: 100%;
+    height: 100%;
+
+    max-width: 900px;
+    margin: 20px auto;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    border-radius: 15px;
+    background: lightgoldenrodyellow;
+}
+
+.description-civ {
+    max-width: 900px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.description-civ>h3 {
+    text-align: left;
+    color: #c86262;
+    font-size: 22px;
+}
+
+.description-civ>p {
+    text-align: left;
+    color: #c86262;
+}
+
+.text-god {
+    width: 100%;
+    height: 100%;
+
+    max-width: 900px;
+    margin: 20px auto;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    border-radius: 15px;
+    background: deepskyblue;
+}
+
+.description-god {
+    max-width: 900px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.description-god>h3 {
+    text-align: left;
+    color: whitesmoke;
+    font-size: 22px;
+}
+
+.description-god>p {
+    text-align: left;
+    color: whitesmoke;
+}
+
