@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="grid.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Noto+Sans:wght@500&family=Oswald:
+    wght@600&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <script src="card_api.js"></script>
+    <style>
+        body {
+            background-image: url(images/back.png); /* Путь к фоновому изображению */
+            background-attachment: fixed; /* Фиксируем фон веб-страницы */
+        }
+    </style>
+</head>
+
+<body>
+
+<div class>
+
+    <header class="hleb-head">
+
+        <div class="head-container">
+            <a href="games.html" class="logo">
+                <img src="images/keyboard.svg">
+            </a>
+            <p class="name">
+                <h2>HLEBY6EK.GAMES</h2>
+            </p>
+            <a href="">Киберспорт</a>
+            <a href="">Новости</a>
+            <a href="">Ожидаемые</a>
+        </div>
+
+    </header>
+
+    <div class="info">
+
+        <div class="n-game">
+            <h1>Лучшие игры на PC</h1>
+        </div>
+
+        <label for="genre">Выбор жанра:</label>
+        <select name="genre" id="genre">
+            <option value="horror">Страшилка</option>
+            <option value="strategy">Стратегия</option>
+            <option value="store">Сюжет</option>
+            <option value="fight" selected>Драки</option>
+        </select>
+
+        <div class="wrapper"> <!-- Класс для настройки grid view -->
+            <div class="card"> <!-- Класс для настройки карточки -->
+                <a href="game_site/gta.html">
+                    <img id="image_gta" src="">
+                    <div class="container">
+                        <h4 id="title_gta"></h4>
+                        <p id="rating_gta"></p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="game_site/civ.html">
+                    <img id="image_civ" src="">
+                    <div class="container">
+                        <h4 id="title_civ"></h4>
+                        <p id="rating_civ"></p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="game_site/god.html">
+                    <img id="image_gow" src="">
+                    <div class="container">
+                        <h4 id="title_gow"></h4>
+                        <p id="rating_gow"></p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card">
+                <img src="images/far_cry_5.jpg">
+                <div class="container">
+                    <h4>Far Cry 5</h4>
+                    <p>Сюжет</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/son_ot_forest.jpg">
+                <div class="container">
+                    <h4>Sons of the Forest</h4>
+                    <p>Страшилка</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/village.jpg">
+                <div class="container">
+                    <h4>Resident Evil: Village</h4>
+                    <p>Страшилка</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/naruto.jpg">
+                <div class="container">
+                    <h4>Naruto Shippuden: Ultimate Ninja Storm 4</h4>
+                    <p>Драки</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>
